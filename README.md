@@ -1,4 +1,4 @@
-Para poder ejecutar correctamente los ejercicios, se debe tener un fichero config.json con la siguiente estructura: 
+Para poder ejecutar correctamente el primer ejercicio, se debe tener un fichero config.json con la siguiente estructura: 
 ```json
 {
   "EMBEDDINGS_MODEL": "text-embedding-ada-002",
@@ -7,6 +7,13 @@ Para poder ejecutar correctamente los ejercicios, se debe tener un fichero confi
   "OPENAI_API_VERSION": "2022-12-01"
 }
 ```
+Para poder ejecutar el 2º y el 3º notebook, se debe tener u fichero .env con la siguiente estructura:
+
+```bash
+AZURE_OPENAI_ENDPOINT=<endpoint>
+AZURE_OPENAI_API_KEY=<api_key>
+```
+
 
 Crear un entorno virtual (venv) para ejecutar el notebook, para ello: 
 Intalar virtualenv si no se tiene
